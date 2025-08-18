@@ -8,13 +8,20 @@ ul {
   list-style: none;
   border: 2px solid #344feb;
   display: flex;
-  gap: 5px;
+  gap: 20px;
 }
 
 a {
   text-decoration: none;
   border: 2px solid #eb34c3;
+  color: #e5e7eb;
+  font-size: 18px;
 }
+
+a:hover {
+  color: #e5e7eb; 
+}
+
 body {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -28,16 +35,57 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 235px;
+  margin-right: 235px;
+  margin-top: 7px;
+  margin-bottom: 70px;
+}
+
+.header {
+  color: #f9faf8; 
+  font-size: 24px;
 }
 
 .subheader-container {
   border: 2px solid #259fcf;
   display: flex;
   justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
-.container {
-  border: 2px solid #ff0000; 
+.subheading-box {
+  border: 2px solid pink;
+  width: 410px;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext-color {
+  color: #e5e7eb; 
+}
+
+.first-button {
+  background-color: #3882f6;
+  color: #ffffff; 
+  border-style: none;
+  padding: 5px 25px;
+  font-weight: 900;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cloud-image {
+  width: 500px;
+  height: 210;
+}
+.large-container {
+  border: 2px solid #ff0000;
+  background-color: #1f2937; 
 }
 
 .main-container {
@@ -47,7 +95,24 @@ body {
   flex-basis: 0; 
 }
 
+.header-two {
+  text-align: center;
+}
+
+.main-container .container {
+  border: 2px solid #cf4125;
+  display: flex;
+}
+
+.quote-container {
+  border: 2px solid #cf7d25;
+}
+
 .footer-container {
   border: 2px solid #0000ff;
   text-align: center; 
+  background-color: #1f2937; 
+  color: #e5e7eb;
+  font-size: 15px;
+  padding: 21px 0px; 
 }

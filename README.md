@@ -1,2 +1,2 @@
 # odin-landing-page
-<p>Image from Pexels</p>
+<p>Image credit: Annie Spratt (website: Unsplash)</p>

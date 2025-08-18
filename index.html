@@ -13,62 +13,65 @@
   </head>
 
   <body> <!--flex container-->
-    <div class="container">
-      <div class="header-container">Header Logo
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
-        </ul>
-      </div>
+    <div class="large-container">
+      <div class="header-container"> 
+        <div class="header">Header Logo</div>
+          <ul>
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
+      </div> <!-- end of header container -->
       <div class="subheader-container">
-        <section>
+        <section class="subheading-box">
           <h1>This website is awesome</h1>
-          <p>This website has some subtext that goes here under
+          <p class="subtext-color">This website has some subtext that goes here under
             the main title. It's a smaller font and the color 
             is lower contrast</p>
-          <button>Sign up</button>
+          <button class="first-button">Sign up</button>
         </section> <!-- end of section container-->
         <section>
-          <img src="images/cloud_image.jpg" alt="image of clouds" 
-          width="380" height="200"/>
+          <img src="images/grey-background-image.jpg"  class="cloud-image" alt="light grey box" 
+          width="500" height="210"/>
         </section> <!-- end of section container-->
       </div> <!-- end of subheader container-->
-    </div> <!-- end of container-->
+    </div> <!-- end of large-container-->
     
     <main class="main-container">
-      <h2>Some random information.</h2>
-      <div>  <!-- need to make a larger container to contain this!!! -->
-        <div>box #1</div>
-        <div>this is some subtext under an 
-          illustration or image</div>
-      </div>
+      <h2 class="header-two">Some random information.</h2>
+      <div class="container"> <!-- large div container --> 
+        <div>  
+          <div>box #1</div>
+          <div>this is some subtext under an 
+            illustration or image</div>
+        </div>
 
-      <div>
-        <div>box #2</div>
-        <div>this is some subtext under an
-          illustration or image</div>
-      </div>
+        <div>
+          <div>box #2</div>
+          <div>this is some subtext under an
+            illustration or image</div>
+        </div>
 
-      <div>
-        <div>box #3</div>
-        <div>this is some subtext under an
-          illustration or image</div>
-      </div>
+        <div>
+          <div>box #3</div>
+          <div>this is some subtext under an
+            illustration or image</div>
+        </div>
 
-      <div>
-        <div>box #4</div>
-        <div>this is some subtext under an
-          illustration or image</div>
-      </div>
+        <div>
+          <div>box #4</div>
+          <div>this is some subtext under an
+            illustration or image</div>
+        </div>
+      </div> <!--end of large div container-->
       
-      <section>
+      <section class="quote-container">
         <p>This is an inspiring quote, or a 
           testimonial from a customer. Maybe it's 
           just filling up space, or maybe people will 
           actually read it. Who knows? 
-          All I know is that it looks nice.<br /> 
-         -Thor, God of Thunder </p>
+          All I know is that it looks nice. <br />
+        -Thor, God of Thunder </p>
       </section> <!-- end of section container-->
 
       <section>
