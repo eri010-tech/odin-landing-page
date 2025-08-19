@@ -162,6 +162,12 @@ h1 {
   font-weight: bold;
 }
 
+.call-to-action-container {
+  border: 3px solid #41ad1a;
+  display: flex;
+  justify-content: center;
+}
+
 .footer-container {
   border: 2px solid #0000ff;
   text-align: center; 
