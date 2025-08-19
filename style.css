@@ -54,7 +54,7 @@ body {
   border: 2px solid #259fcf;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 35px;
   margin-bottom: 50px;
 }
 
@@ -166,7 +166,9 @@ h1 {
   border: 3px solid #41ad1a;
   display: flex;
   justify-content: center;
+  gap: 100px;
 }
+
 
 .footer-container {
   border: 2px solid #0000ff;
