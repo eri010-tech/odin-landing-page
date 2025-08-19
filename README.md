@@ -1,2 +1,2 @@
 # odin-landing-page
-<p>Image credit: Annie Spratt (website: Unsplash)</p>
+<p>Project #2: Landing Page</p>

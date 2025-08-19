@@ -44,9 +44,6 @@ body {
 .header {
   color: #f9faf8; 
   font-size: 24px;
-}
-
-.header:hover {
   cursor: pointer;
 }
 
@@ -73,10 +70,14 @@ h1 {
   color: #e5e7eb; 
 }
 
-.first-button {
+.first-button{ 
+  border-style: none;
+}
+
+.first-button,
+.second-button {
   background-color: #3882f6;
   color: #ffffff; 
-  border-style: none;
   padding: 5px 25px;
   font-weight: 700;
   border-radius: 5px;
@@ -84,9 +85,17 @@ h1 {
   cursor: pointer;
 }
 
-.grey-box {
-  width: 500px;
-  height: 210;
+.placeholder {
+  border: 2px solid #ffffff; 
+  width: 490px;
+  background-color: #afb9bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-text-color {
+  color: #ffffff; 
 }
 
 .large-container {
@@ -192,15 +201,8 @@ h1 {
 }
 
 .second-button {
-  background-color: #3882f6;
-  color: #ffffff; 
-  padding: 5px 25px;
-  font-weight: 700;
-  border-radius: 5px;
-  margin-top: 10px;
-  cursor: pointer;
   border: 1px solid #ffffff;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .footer-container {
