@@ -166,9 +166,17 @@ h1 {
   border: 3px solid #41ad1a;
   display: flex;
   justify-content: center;
-  gap: 100px;
 }
 
+.small-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-basis: 705px;
+  border: 2px solid #000000; 
+  background-color: #3882f6;
+
+}
 
 .footer-container {
   border: 2px solid #0000ff;
