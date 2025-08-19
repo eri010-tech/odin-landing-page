@@ -78,7 +78,7 @@ h1 {
   color: #ffffff; 
   border-style: none;
   padding: 5px 25px;
-  font-weight: 900;
+  font-weight: 700;
   border-radius: 5px;
   margin-top: 10px;
   cursor: pointer;
@@ -166,16 +166,41 @@ h1 {
   border: 3px solid #41ad1a;
   display: flex;
   justify-content: center;
+  margin: 55px 0px; 
 }
 
-.small-container {
+.small-call-to-action-container {
   display: flex;
-  justify-content: center;
   gap: 100px;
-  flex-basis: 705px;
-  border: 2px solid #000000; 
-  background-color: #3882f6;
+  flex-basis: 700px;
+  background-color: #3882f6; 
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 6px;
+}
 
+.call-to-action-color {
+  color: #f9faf8;
+  font-weight: 500; 
+}
+
+#sign-up-color {
+  color: #e5e7eb;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.second-button {
+  background-color: #3882f6;
+  color: #ffffff; 
+  padding: 5px 25px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px; 
 }
 
 .footer-container {
@@ -183,6 +208,6 @@ h1 {
   text-align: center; 
   background-color: #1f2937; 
   color: #e5e7eb;
-  font-size: 15px;
+  font-size: 13px;
   padding: 21px 0px; 
 }
