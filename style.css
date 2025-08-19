@@ -28,13 +28,12 @@ body {
 }
 
 .header-container {
-  border: 3px solid #34eb71;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 235px;
   margin-right: 235px;
-  margin-top: 7px;
+  margin-top: 17px;
   margin-bottom: 70px;
 }
 
@@ -45,7 +44,6 @@ body {
 }
 
 .subheader-container {
-  border: 2px solid #259fcf;
   display: flex;
   justify-content: center;
   gap: 35px;
@@ -53,7 +51,6 @@ body {
 }
 
 .subheading-box {
-  border: 2px solid pink;
   width: 410px;
 }
 
@@ -82,8 +79,7 @@ h1 {
   cursor: pointer;
 }
 
-.placeholder {
-  border: 2px solid #ffffff; 
+.placeholder { 
   width: 490px;
   background-color: #afb9bd;
   display: flex;
@@ -96,12 +92,10 @@ h1 {
 }
 
 .large-container {
-  border: 2px solid #ff0000;
   background-color: #1f2937; 
 }
 
 .main-container {
-  border: 2px solid #00ff00;
   flex-grow: 1; 
   flex-shrink: 0;
   flex-basis: 0; 
@@ -109,12 +103,11 @@ h1 {
 
 .header-two {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 37px;
   margin-bottom: 30px;
 }
 
 .main-container .container {
-  border: 2px solid #cf4125;
   display: flex;
   justify-content: center;
   margin-bottom: 90px;
@@ -150,7 +143,6 @@ h1 {
 }
 
 .quote-container {
-  border: 2px solid #cf7d25;
   display: flex; 
   flex-direction: column;
   justify-content: center;
@@ -174,7 +166,6 @@ h1 {
 }
 
 .call-to-action-container {
-  border: 3px solid #41ad1a;
   display: flex;
   justify-content: center;
   margin: 55px 0px; 
@@ -208,7 +199,6 @@ h1 {
 }
 
 .footer-container {
-  border: 2px solid #0000ff;
   text-align: center; 
   background-color: #1f2937; 
   color: #e5e7eb;
