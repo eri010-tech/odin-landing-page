@@ -81,6 +81,7 @@ h1 {
   font-weight: 900;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .grey-box {
@@ -110,7 +111,7 @@ h1 {
   border: 2px solid #cf4125;
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 
 .box-one-container,
@@ -139,6 +140,26 @@ h1 {
 
 .quote-container {
   border: 2px solid #cf7d25;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 75px 0px;
+}
+
+.quote-container p {
+  width: 550px;
+  font-size: 25px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.thor {
+  width: 500px;
+  text-align: right;
+  font-weight: bold;
 }
 
 .footer-container {
